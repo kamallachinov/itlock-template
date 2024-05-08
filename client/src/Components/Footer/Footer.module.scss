@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+
+    p {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+
+        p {
+            margin: 0;
+            font-size: 15px;
+        }
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+
+        p {
+            margin: 0;
+            font-size: 10px;
+        }
+    }
+}

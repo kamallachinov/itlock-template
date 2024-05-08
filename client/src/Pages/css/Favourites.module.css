@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.tableContainer {
+  min-height: 83vh;
+  padding-top: 8rem;
+}
+.tableContainer .img {
+  width: 200px;
+  height: 200px;
+}/*# sourceMappingURL=Favourites.module.css.map */

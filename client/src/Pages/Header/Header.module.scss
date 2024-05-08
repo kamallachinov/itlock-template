@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;1,200;1,300&family=Rubik:ital,wght@0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;1,200;1,300&family=Rubik:ital,wght@0,400;0,500;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url("../../Assets/h1_hero1.jpg");
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 6rem;
+
+
+    .text {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        float: left;
+        align-items: start;
+        height: 80vh;
+        padding-left: 8rem;
+
+        h1 {
+            font-weight: 500;
+            font-size: 72px;
+            font-style: normal;
+            color: rgb(255, 255, 255);
+            max-width: 65%;
+            line-height: 79.2px;
+            text-decoration: none;
+            transform: none;
+            font-family: 'Rubik', sans-serif;
+            letter-spacing: -2.5px;
+            margin-bottom: 1.5rem;
+        }
+
+        span {
+            height: 4px;
+            width: 140px;
+            background: rgb(253, 253, 253);
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 20px;
+            font-style: normal;
+            color: rgb(255, 255, 255);
+            line-height: 30px;
+            text-decoration: none;
+            transform: none;
+            font-family: "Fira Sans";
+            letter-spacing: 0;
+            max-width: 65%;
+        }
+
+        button {
+            background-color: transparent;
+            border: 2px solid white;
+            padding: 1rem 2rem;
+            color: White;
+            margin-top: 1.5rem;
+        }
+
+        button:hover {
+            transition: all 1s ease;
+            background-color: #01459B;
+            border: 2px solid #01459B;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        background-image: url("../../Assets/h1_hero1.jpg");
+        height: 78vh;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .text {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            float: left;
+            align-items: start;
+            height: 60vh;
+            padding-left: 4rem;
+
+            h1 {
+                font-weight: 500;
+                font-size: 56px;
+                font-style: normal;
+                color: rgb(255, 255, 255);
+                max-width: 50%;
+                line-height: 55.2px;
+                text-decoration: none;
+                transform: none;
+                font-family: 'Rubik', sans-serif;
+                letter-spacing: -2.5px;
+                margin-bottom: 1.5rem;
+            }
+
+            span {
+                height: 4px;
+                width: 120px;
+                background: rgb(253, 253, 253);
+                margin-bottom: 1rem;
+            }
+
+            p {
+                font-weight: 400;
+                font-size: 17px;
+                font-style: normal;
+                color: rgb(255, 255, 255);
+                line-height: 25px;
+                text-decoration: none;
+                transform: none;
+                font-family: "Fira Sans";
+                letter-spacing: 0;
+                max-width: 55%;
+            }
+
+            button {
+                background-color: transparent;
+                border: 2px solid white;
+                padding: 0.75rem 1.5rem;
+                color: White;
+                margin-top: 1rem;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .header {
+        background-image: url("../../Assets/h1_hero1.jpg");
+        height: 60vh;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 6rem;
+
+
+        .text {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            float: left;
+            align-items: start;
+            height: 50vh;
+
+
+            h1 {
+                font-weight: 500;
+                font-size: 32px;
+                font-style: normal;
+                color: rgb(255, 255, 255);
+                max-width: 60%;
+                line-height: 44.2px;
+                text-decoration: none;
+                transform: none;
+                font-family: 'Rubik', sans-serif;
+                letter-spacing: -2.5px;
+                margin-bottom: 1rem;
+            }
+
+            span {
+                height: 4px;
+                width: 70px;
+                background: rgb(253, 253, 253);
+                margin-bottom: 0.75rem;
+            }
+
+            p {
+                font-weight: 400;
+                font-size: 14px;
+                font-style: normal;
+                color: rgb(255, 255, 255);
+                line-height: 20px;
+                text-decoration: none;
+                transform: none;
+                font-family: "Fira Sans";
+                letter-spacing: 0;
+                max-width: 45%;
+            }
+
+            button {
+                background-color: transparent;
+                border: 2px solid white;
+                padding: 0.4rem 0.75rem;
+                color: White;
+                font-size: 0.75rem;
+                margin-top: 1rem;
+            }
+
+            button:hover {
+                transition: all 1s ease;
+                background-color: #01459B;
+                border: 2px solid #01459B;
+            }
+        }
+    }
+}

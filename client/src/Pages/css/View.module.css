@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.centeredDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding-top: 3rem;
+  min-height: 77vh;
+}
+.centeredDiv img {
+  width: 500px;
+  height: 400px;
+  margin-bottom: 1rem;
+}
+.centeredDiv h2 {
+  margin-top: 0.5rem;
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+.centeredDiv h3 {
+  margin-bottom: 1rem;
+}/*# sourceMappingURL=View.module.css.map */

@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;1,200;1,300&family=Rubik:ital,wght@0,400;0,500;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;1,200;1,300&family=Rubik:ital,wght@0,400;0,500;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-image: url("../../Assets/h1_hero1.jpg");
+  height: 90vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 3rem;
+}
+.header .text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  float: left;
+  align-items: start;
+  height: 80vh;
+  padding-left: 8rem;
+}
+.header .text h1 {
+  font-weight: 500;
+  font-size: 72px;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+  max-width: 65%;
+  line-height: 79.2px;
+  text-decoration: none;
+  transform: none;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: -2.5px;
+  margin-bottom: 1.5rem;
+}
+.header .text span {
+  height: 4px;
+  width: 140px;
+  background: rgb(253, 253, 253);
+  margin-bottom: 1rem;
+}
+.header .text p {
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+  line-height: 30px;
+  text-decoration: none;
+  transform: none;
+  font-family: "Fira Sans";
+  letter-spacing: 0;
+  max-width: 65%;
+}
+.header .text button {
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 1rem 2rem;
+  color: White;
+  margin-top: 1.5rem;
+}
+.header .text button:hover {
+  transition: all 1s ease;
+  background-color: #01459B;
+  border: 2px solid #01459B;
+}/*# sourceMappingURL=Header.module.css.map */

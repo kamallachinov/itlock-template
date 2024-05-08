@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;1,200;1,300&family=Rubik:ital,wght@0,400;0,500;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;1,200;1,300&family=Rubik:ital,wght@0,400;0,500;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.section .textCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.section .textCenter .btn {
+  margin-top: 1rem;
+  padding: 0.4rem 1.5rem;
+  border: 0;
+  border-radius: 0.3rem;
+  background-color: #003072;
+  color: white;
+}
+.section .textCenter span {
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  color: rgb(49, 110, 194);
+  line-height: 21px;
+  text-decoration: none;
+  transform: uppercase;
+  font-family: "Fira Sans";
+  letter-spacing: 2.8px;
+  margin-bottom: 1rem;
+}
+.section .textCenter input {
+  outline: none;
+  width: 300px;
+  padding: 0.5rem 1rem;
+  border: 2px solid #003072;
+  border-radius: 0.4rem;
+}
+.section .textCenter h2 {
+  font-weight: 500;
+  font-size: 38px;
+  font-style: normal;
+  color: rgb(0, 48, 114);
+  line-height: 45.6px;
+  text-decoration: none;
+  transform: none;
+  font-family: "Rubik";
+  letter-spacing: -2px;
+}
+.section .cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 3rem;
+}
+.section .cards .card {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.section .cards .card .btns button {
+  margin-left: 0.3rem;
+}
+.section .cards .card img {
+  width: 416px;
+  height: 281px;
+}
+.section .cards .card h5 {
+  font-weight: 500;
+  font-size: 24px;
+  font-style: normal;
+  color: rgb(0, 48, 114);
+  line-height: 33.6px;
+  text-decoration: none;
+  transform: none;
+  font-family: "Rubik";
+  letter-spacing: 0;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.section .cards .card p {
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  color: rgb(76, 82, 110);
+  line-height: 22.4px;
+  text-decoration: none;
+  transform: none;
+  font-family: "Fira Sans";
+  letter-spacing: 0;
+}/*# sourceMappingURL=Brands.module.css.map */

@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;1,200;1,300&family=Rubik:ital,wght@0,400;0,500;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;1,200;1,300&family=Rubik:ital,wght@0,400;0,500;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding-top: 3rem;
+  width: 100%;
+  flex-wrap: wrap;
+  min-height: 77vh;
+}
+.formContainer .subTitle {
+  margin-bottom: 2rem;
+  color: #003072;
+}
+.formContainer .form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+  border: 1px solid #003072;
+}
+.formContainer .form input {
+  outline: none;
+  width: 300px;
+  padding: 0.5rem 1rem;
+  border: 2px solid #003072;
+}
+.formContainer .form .btn {
+  margin-top: 1rem;
+  padding: 0.4rem 1.5rem;
+  border: 0;
+  border-radius: 0.3rem;
+  background-color: #003072;
+  color: white;
+}/*# sourceMappingURL=Create.module.css.map */

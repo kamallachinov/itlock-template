@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;1,200;1,300&family=Rubik:ital,wght@0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;1,200;1,300&family=Rubik:ital,wght@0,400;0,500;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.textCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #003072;
+    flex-direction: column;
+    padding: 7rem;
+
+    h2 {
+        font-weight: 500;
+        font-size: 38px;
+        font-style: normal;
+        color: rgb(255, 255, 255);
+        line-height: 57px;
+        text-decoration: none;
+        transform: none;
+        font-family: "Rubik";
+        letter-spacing: 0;
+    }
+
+    P {
+        font-weight: 400;
+        font-size: 18px;
+        font-style: normal;
+        color: rgb(255, 255, 255);
+        line-height: 25.2px;
+        text-decoration: none;
+        transform: none;
+        font-family: "Fira Sans";
+        letter-spacing: 0;
+        max-width: 45%;
+        margin-top: 1.5rem;
+    }
+
+    .btn {
+        background-color: #3D80DF;
+        background: #316EC2;
+        font-family: "Rubik", sans-serif;
+        text-transform: inherit;
+        padding: 30px 52px;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 18px;
+        font-weight: 400;
+        border-radius: 0px;
+        line-height: 1;
+        line-height: 0;
+        text-transform: capitalize;
+        cursor: pointer;
+        border: 0;
+        margin-top: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .textCenter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #003072;
+        flex-direction: column;
+        padding: 4rem;
+
+        h2 {
+            font-weight: 500;
+            font-size: 33px;
+            font-style: normal;
+            color: rgb(255, 255, 255);
+            line-height: 57px;
+            text-decoration: none;
+            transform: none;
+            font-family: "Rubik";
+            letter-spacing: 0;
+        }
+
+        P {
+            font-weight: 400;
+            font-size: 16px;
+            font-style: normal;
+            color: rgb(255, 255, 255);
+            line-height: 25.2px;
+            text-decoration: none;
+            transform: none;
+            font-family: "Fira Sans";
+            letter-spacing: 0;
+            max-width: 70%;
+            margin-top: 1.5rem;
+        }
+
+        .btn {
+            background-color: #3D80DF;
+            background: #316EC2;
+            font-family: "Rubik", sans-serif;
+            text-transform: inherit;
+            padding: 25px 47px;
+            color: #fff;
+            cursor: pointer;
+            display: inline-block;
+            font-size: 16px;
+            font-weight: 400;
+            border-radius: 0px;
+            line-height: 1;
+            line-height: 0;
+            text-transform: capitalize;
+            cursor: pointer;
+            border: 0;
+            margin-top: 1.5rem;
+        }
+    }
+
+
+}
+
+@media only screen and (max-width: 576px) {
+    .textCenter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #003072;
+        flex-direction: column;
+        padding: 2rem;
+
+        h2 {
+            font-weight: 500;
+            font-size: 20px;
+            font-style: normal;
+            color: rgb(255, 255, 255);
+            line-height: 57px;
+            text-decoration: none;
+            transform: none;
+            font-family: "Rubik";
+            letter-spacing: 0;
+        }
+
+        P {
+            font-weight: 400;
+            font-size: 13px;
+            font-style: normal;
+            color: rgb(255, 255, 255);
+            line-height: 25.2px;
+            text-decoration: none;
+            transform: none;
+            font-family: "Fira Sans";
+            letter-spacing: 0;
+            max-width: 75%;
+            margin-top: 0.3rem;
+        }
+
+        .btn {
+            background-color: #3D80DF;
+            background: #316EC2;
+            font-family: "Rubik", sans-serif;
+            text-transform: inherit;
+            padding: 15px 35px;
+            color: #fff;
+            cursor: pointer;
+            display: inline-block;
+            font-size: 13px;
+            font-weight: 400;
+            border-radius: 0px;
+            line-height: 0.75;
+            text-transform: capitalize;
+            cursor: pointer;
+            border: 0;
+            margin-top: 0.5rem;
+        }
+    }
+}
